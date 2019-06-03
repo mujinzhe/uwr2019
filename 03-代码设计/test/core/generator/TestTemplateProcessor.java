@@ -1,4 +1,4 @@
-package core.generator;
+package core.generator;						//匡梓铭 201692113
 import core.common.*;
 import org.easymock.EasyMock;
 import org.easymock.IAnswer;
@@ -70,7 +70,6 @@ public class TestTemplateProcessor implements DataSourceType{
 		EasyMock.expect( dsc.getConstDataSource().getDataHolder("sex").getValue()).andReturn("Female");
 		EasyMock.expect( dsc.getConstDataSource().getDataHolder("readme").getValue()).andReturn("5");
 		EasyMock.expect( dsc.getConstDataSource().getDataHolder("testexpr").getExpr()).andReturn("${num}+${readme}");
-		EasyMock.expect( dsc.getConstDataSource().getDataHolder("testexpr").fillValue()).andReturn("5.0");
 		//
         //------------------------------------------------
 		//5. 重放所有的行为。
