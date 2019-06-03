@@ -1,4 +1,4 @@
-package core.generator;						//匡梓铭 201692113
+package core.generator;
 import core.common.*;
 import org.easymock.EasyMock;
 import org.easymock.IAnswer;
